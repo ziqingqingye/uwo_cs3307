@@ -1,0 +1,35 @@
+GROUP Project Discussion: 
+
+Do not have to use Raspberry Pi platform...
+
+REQUIRED FEATURES:
+- collision of the snake with objects
+- movement of the snake (Up, Left, Down, Right)
+- making the snake longer
+- snake food should be randomly generated (random x/y coordinates)
+- scoreboard [displays your current score and compares it to previous scores]
+
+OPTIONAL FEATURES: 
+- the hand gestures/hand movement as controller for the snake
+- adding background music to the game
+
+Wish-List Feature: 
+- multiplayer, 
+- bluetooth connectivity, 
+- controlling the snake via brain waves, 
+- add colour to the game
+
+
+
+
+RISKS: 
+- no major for the snake game
+- OpenCV capturing the camera/hand gestures [we may be able to track the movements
+  but mapping them to the controls will be difficult]
+- there may be delay between the hand movement and the actual movement of the snake
+- determining the collision of the snake and obstacles of various sizes may be difficult
+  to implement. 
+- if we code the game solely using C++. the image of the snake my not keep up with the 
+  movement / image rendering may be choppy
+- OpenCV may not work 
+ 
